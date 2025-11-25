@@ -1,0 +1,35 @@
+
+
+# Build folders
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Configurações locais
+appsettings.Development.json
+appsettings.Local.json
+
+# Variáveis de ambiente
+.env
+
+# Logs
+*.log
+
+# Banco local 
+*.db
+*.sqlite
+*.mdf
+*.ldf
+
+# Publicação
+publish/
+
+
+
+
