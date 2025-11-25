@@ -9,8 +9,8 @@ namespace APICatalog.Context
         {
         }
 
-        public DbSet<Category>? Categories { get; set; }
-        public DbSet<Product>? Products { get; set; }
+        public DbSet<Category> Categorys { get; set; }
+        public DbSet<Product> Products { get; set; }
 
 
     }
