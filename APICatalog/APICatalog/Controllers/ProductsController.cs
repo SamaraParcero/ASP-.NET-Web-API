@@ -17,6 +17,41 @@ namespace APICatalog.Controllers
             _context = context;
         }
 
+        //COM ASYNC
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<Product>>> GetProductAsync()
+        {
+            return await _context.Products.ToListAsync();
+        }
+
+        //Segundo parâmetro
+        /*
+       [HttpGet("{id}/{nome=Caderno}", Name="GetProduct")]
+        public ActionResult<Product> Get(int id, [[BindRequired] string nome) //Com o bind required é obrigatório ser fornecido  na query string
+        {
+        var parametro = nome;
+            var product = _context.Products.FirstOrDefault(p => p.ProductId == id);
+            if (product is null)
+            {
+                return NotFound("Product not founded");
+            }
+            return product;
+        }*/
+
+        //Definição de nome
+        //Usar mais de um endpoint
+        [HttpGet("first")]
+        [HttpGet("/first")]
+        public ActionResult<Product> GetFirst()
+        {
+            var product = _context.Products.FirstOrDefault();
+            if (product is null)
+            {
+                return NotFound("Products not founded");
+            }
+            return product;
+        }
+
         [HttpGet]
         public ActionResult<IEnumerable<Product>> Get()
         {
@@ -40,7 +75,7 @@ namespace APICatalog.Controllers
         }
 
         [HttpPost]
-        public ActionResult Post(Product product)
+        public ActionResult Post([FromBody]Product product)
         {
             if (product is null)
             {
