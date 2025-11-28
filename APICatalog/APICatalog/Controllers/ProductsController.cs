@@ -1,5 +1,6 @@
 ﻿using APICatalog.Context;
 using APICatalog.Models;
+using APICatalog.Repositorys;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -10,68 +11,71 @@ namespace APICatalog.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
-        private readonly AppDbContext _context;
+        private readonly IProductRepository _productRepository;
 
-        public ProductsController(AppDbContext context)
+        public ProductsController(IProductRepository product)
         {
-            _context = context;
+            _productRepository = product;
         }
 
-        //COM ASYNC
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<Product>>> GetProductAsync()
-        {
-            return await _context.Products.ToListAsync();
-        }
-
-        //Segundo parâmetro
         /*
-       [HttpGet("{id}/{nome=Caderno}", Name="GetProduct")]
-        public ActionResult<Product> Get(int id, [[BindRequired] string nome) //Com o bind required é obrigatório ser fornecido  na query string
-        {
-        var parametro = nome;
-            var product = _context.Products.FirstOrDefault(p => p.ProductId == id);
-            if (product is null)
-            {
-                return NotFound("Product not founded");
-            }
-            return product;
-        }*/
+       //COM ASYNC
+       [HttpGet]
+       public async Task<ActionResult<IEnumerable<Product>>> GetProductAsync()
+       {
+           return await _context.Products.ToListAsync();
+       }
 
-        //Definição de nome
-        //Usar mais de um endpoint
-        [HttpGet("first")]
-        [HttpGet("/first")]
-        public ActionResult<Product> GetFirst()
-        {
-            var product = _context.Products.FirstOrDefault();
-            if (product is null)
-            {
-                return NotFound("Products not founded");
-            }
-            return product;
-        }
+       //Segundo parâmetro
+
+      [HttpGet("{id}/{nome=Caderno}", Name="GetProduct")]
+       public ActionResult<Product> Get(int id, [[BindRequired] string nome) //Com o bind required é obrigatório ser fornecido  na query string
+       {
+       var parametro = nome;
+           var product = _context.Products.FirstOrDefault(p => p.ProductId == id);
+           if (product is null)
+           {
+               return NotFound("Product not founded");
+           }
+           return product;
+       }
+
+       //Definição de nome
+       //Usar mais de um endpoint
+       [HttpGet("first")]
+       [HttpGet("/first")]
+       public ActionResult<Product> GetFirst()
+       {
+           var product = _context.Products.FirstOrDefault();
+           if (product is null)
+           {
+               return NotFound("Products not founded");
+           }
+           return product;
+       }
+       */
 
         [HttpGet]
         public ActionResult<IEnumerable<Product>> Get()
         {
-            var products = _context.Products.AsNoTracking().Take(10).ToList();
+            // var products = _context.Products.AsNoTracking().Take(10).ToList();
+            var products = _productRepository.GetProducts().ToList();
             if (products is null)
             {
                 return NotFound("Products not founded");
             }
-            return products;
+            return Ok(products);
         }
 
         [HttpGet("{id:int}", Name="GetProduct")]
         public ActionResult<Product> Get(int id)
         {
-            var product = _context.Products.FirstOrDefault(p => p.ProductId == id);
+            var product = _productRepository.GetProductById(id);
             if (product is null)
             {
                 return NotFound("Product not founded");
             }
-            return product;
+            return Ok(product);
         }
 
         [HttpPost]
@@ -82,11 +86,10 @@ namespace APICatalog.Controllers
                 return BadRequest();
             }
 
-            _context.Products.Add(product);
-            _context.SaveChanges();
+            var createProduct = _productRepository.Create(product);
 
             return new CreatedAtRouteResult("GetProduct",
-                new {id = product.ProductId}, product);
+                new {id = product.ProductId}, createProduct);
         }
 
         [HttpPut("{id:int}")]
@@ -97,24 +100,36 @@ namespace APICatalog.Controllers
                 return BadRequest();
             }
 
-            _context.Entry(product).State = EntityState.Modified;
-            _context.SaveChanges();
+            bool updatedProduct = _productRepository.Update(product);
 
-            return Ok(product);
+            if (updatedProduct)
+            {
+                return Ok(product);
+            }
+            else
+            {
+                return StatusCode(500, $"Failed to Update Product");
+            }
+
+               
         }
 
         [HttpDelete]
         public ActionResult Delete(int id)
         {
-            var product = _context.Products.FirstOrDefault(p => p.ProductId == id);
-            if(product is null)
-            {
-                return NotFound("Product not founded");
-            }
-            _context.Products.Remove(product);
-            _context.SaveChanges();
+        
+            var product = _productRepository.Delete(id);
 
-            return Ok(product);
+            if (product)
+            {
+                return Ok(product);
+            }
+            else
+            {
+                return StatusCode(500, $"Failed to Delete Product");
+            }
+
+           
         }
     }
 }

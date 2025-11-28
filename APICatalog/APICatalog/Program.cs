@@ -2,6 +2,8 @@
 using APICatalog.Context;
 using APICatalog.Extensions;
 using APICatalog.Filters;
+using APICatalog.Logging;
+using APICatalog.Repositorys;
 using APICatalog.Services;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -11,9 +13,15 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers().AddJsonOptions(options=>
-                options.JsonSerializerOptions
-                .ReferenceHandler= ReferenceHandler.IgnoreCycles);
+builder.Services.AddControllers(options =>
+{
+    options.Filters.Add(typeof(ApiExceptionFilter));
+})
+.AddJsonOptions(options =>
+{
+    options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+});
+
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 string mySqlConnection = builder.Configuration.GetConnectionString("DefaultConnection");
@@ -24,6 +32,13 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 builder.Services.AddTransient<IMyService, MyService>();
 builder.Services.AddScoped<ApiLoggingFilter>();
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
+
+builder.Logging.AddProvider(new CustomLoggerProvider(new CustomLoggerProviderConfiguration
+{
+    LogLevel = LogLevel.Information
+}));
 
 //Pegar algo de appsettings
 /*

@@ -1,6 +1,7 @@
 ﻿using APICatalog.Context;
 using APICatalog.Filters;
 using APICatalog.Models;
+using APICatalog.Repositorys;
 using APICatalog.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -12,19 +13,20 @@ namespace APICatalog.Controllers
     [ApiController]
     public class CategorysController : ControllerBase
     {
-        private readonly AppDbContext _context;
+        private readonly ICategoryRepository _categoryRepository;
         private readonly IMyService MyService;
         private readonly IConfiguration _configuration;
         private readonly ILogger _logger;
 
-        public CategorysController(AppDbContext context, IMyService myService, IConfiguration configuration, ILogger<CategorysController> logger)
+        public CategorysController(ICategoryRepository category, IMyService myService, IConfiguration configuration, ILogger<CategorysController> logger)
         {
-            _context = context;
+            _categoryRepository = category;
             MyService = myService;
             _configuration = configuration;
             _logger = logger;
         }
 
+        /*
         //Lê APP SETTINGS
         [HttpGet("ReadFileConfiguration")]
         public string GetValores()
@@ -36,13 +38,13 @@ namespace APICatalog.Controllers
             return $"Chave1 = {value1} \nChave2 = {value2} \nSeção => Chave2 = {secao1}";
         }
 
-        /*
+        
         [HttpGet]
         public ActionResult<string> GetSaudationFromService([FromServices] IMyService myService, string name)
         {
             return myService.Saudacao(name);
         }
-        */
+       
 
         [HttpGet("produtos")]
         public ActionResult<IEnumerable<Category>> GetProductsCategory()
@@ -55,39 +57,28 @@ namespace APICatalog.Controllers
             }
             return categorys;
         }
+         */
+
 
         [HttpGet]
-        [ServiceFilter(typeof(ApiLoggingFilter))]
+        //[ServiceFilter(typeof(ApiLoggingFilter))]
         public ActionResult<IEnumerable<Category>> Get()
-        {
-            
-            try
-            {
-                var categorys = _context.Categorys.ToList();
-                if (categorys is null)
-                {
-                    return NotFound("Categories not founded");
-                }
-                return categorys;
-            }
-            catch(Exception ex)
-            {
-                return StatusCode(StatusCodes.Status500InternalServerError, "A PROBLEM HAS OCURRED WHILE DOING YOUR REQUEST");
-            }
-
+        { 
+            var categories = _categoryRepository.GetCategories();
+            return Ok(categories);  
         }
 
         [HttpGet("{id:int}", Name = "GetCategory")]
         public ActionResult<Category> Get(int id)
         {
-            //throw new Exception("Exception when get object by Id ");
             
-            var category = _context.Categorys.FirstOrDefault(p => p.CategoryId == id);
+            var category = _categoryRepository.GetCategoryById(id);
             if (category is null)
             {
+                _logger.LogWarning($"CAtegory with this id = {id} not found");
                 return NotFound($"Category with id: {id }not founded");
             }
-            return category;
+            return Ok(category);
         }
 
         [HttpPost]
@@ -95,14 +86,13 @@ namespace APICatalog.Controllers
         {
             if (category is null)
             {
+                _logger.LogWarning($"Dados inválidos...");
                 return BadRequest();
             }
 
-            _context.Categorys.Add(category);
-            _context.SaveChanges();
+            var createCategory = _categoryRepository.Create(category);
 
-            return new CreatedAtRouteResult("GetCategory",
-                new { id = category.CategoryId }, category);
+            return Ok(createCategory);
         }
 
         [HttpPut("{id:int}")]
@@ -110,11 +100,11 @@ namespace APICatalog.Controllers
         {
             if (id != category.CategoryId)
             {
+                _logger.LogWarning($"Dados inválidos...");
                 return BadRequest();
             }
 
-            _context.Entry(category).State = EntityState.Modified;
-            _context.SaveChanges();
+            _categoryRepository.Update(category);
 
             return Ok(category);
         }
@@ -122,15 +112,16 @@ namespace APICatalog.Controllers
         [HttpDelete]
         public ActionResult Delete(int id)
         {
-            var category = _context.Categorys.FirstOrDefault(p => p.CategoryId == id);
+            var category = _categoryRepository.GetCategoryById(id);
             if (category is null)
             {
+                _logger.LogWarning($"CAtegory with this id = {id} not found");
                 return NotFound("Category not founded");
             }
-            _context.Categorys.Remove(category);
-            _context.SaveChanges();
+            
+            var excludedCategory = _categoryRepository.Delete(category.CategoryId);
 
-            return Ok(category);
+            return Ok(excludedCategory);
         }
     }
 }
