@@ -11,15 +11,12 @@ namespace APICatalog.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
-        //private readonly IRepository<Product> _repository;
+        private readonly IProductRepository _productRepository;
 
-        private readonly IUnitOfWork _unitOfWork;
-
-        public ProductsController(IUnitOfWork unitOfWork)
+        public ProductsController(IProductRepository product)
         {
-            _unitOfWork = unitOfWork;
+            _productRepository = product;
         }
-
 
         /*
        //COM ASYNC
@@ -62,7 +59,7 @@ namespace APICatalog.Controllers
         public ActionResult<IEnumerable<Product>> Get()
         {
             // var products = _context.Products.AsNoTracking().Take(10).ToList();
-            var products = _unitOfWork.ProductRepository.GetAll();
+            var products = _productRepository.GetProducts().ToList();
             if (products is null)
             {
                 return NotFound("Products not founded");
@@ -73,24 +70,12 @@ namespace APICatalog.Controllers
         [HttpGet("{id:int}", Name="GetProduct")]
         public ActionResult<Product> Get(int id)
         {
-            var product = _unitOfWork.ProductRepository.GetById(p => p.ProductId == id);
+            var product = _productRepository.GetProductById(id);
             if (product is null)
             {
                 return NotFound("Product not founded");
             }
             return Ok(product);
-        }
-
-        [HttpGet("category/{id}")]
-        public ActionResult<IEnumerable<Product>> GetProductsByCategory(int id)
-        {
-            // var products = _context.Products.AsNoTracking().Take(10).ToList();
-            var products = _unitOfWork.ProductRepository.GetProductsByCategory(id);
-            if (products is null)
-            {
-                return NotFound("Products not founded");
-            }
-            return Ok(products);
         }
 
         [HttpPost]
@@ -101,8 +86,8 @@ namespace APICatalog.Controllers
                 return BadRequest();
             }
 
-            var createProduct = _unitOfWork.ProductRepository.Create(product);
-            _unitOfWork.Commit();
+            var createProduct = _productRepository.Create(product);
+
             return new CreatedAtRouteResult("GetProduct",
                 new {id = product.ProductId}, createProduct);
         }
@@ -115,10 +100,16 @@ namespace APICatalog.Controllers
                 return BadRequest();
             }
 
-            var updatedProduct = _unitOfWork.ProductRepository.Update(product);
-            _unitOfWork.Commit();
+            bool updatedProduct = _productRepository.Update(product);
 
-            return Ok(updatedProduct);
+            if (updatedProduct)
+            {
+                return Ok(product);
+            }
+            else
+            {
+                return StatusCode(500, $"Failed to Update Product");
+            }
 
                
         }
@@ -127,16 +118,18 @@ namespace APICatalog.Controllers
         public ActionResult Delete(int id)
         {
         
-            var product = _unitOfWork.ProductRepository.GetById(p=> p.ProductId == id);
+            var product = _productRepository.Delete(id);
 
-            if (product is null)
+            if (product)
             {
-                return NotFound("Product not founded");
+                return Ok(product);
+            }
+            else
+            {
+                return StatusCode(500, $"Failed to Delete Product");
             }
 
-            var deletedProduct  = _unitOfWork.ProductRepository.Delete(product);
-            _unitOfWork.Commit();
-            return Ok(deletedProduct);
+           
         }
     }
 }

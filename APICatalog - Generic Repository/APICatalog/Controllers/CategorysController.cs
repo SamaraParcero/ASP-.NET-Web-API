@@ -13,14 +13,14 @@ namespace APICatalog.Controllers
     [ApiController]
     public class CategorysController : ControllerBase
     {
-        private readonly IUnitOfWork _unitOfWork;
+        private readonly IRepository<Category> _repository;
         private readonly IMyService MyService;
         private readonly IConfiguration _configuration;
         private readonly ILogger _logger;
 
-        public CategorysController(IUnitOfWork unitOfWork , IMyService myService, IConfiguration configuration, ILogger<CategorysController> logger)
+        public CategorysController(IRepository<Category> repository , IMyService myService, IConfiguration configuration, ILogger<CategorysController> logger)
         {
-            _unitOfWork = unitOfWork;
+            _repository = repository;
             MyService = myService;
             _configuration = configuration;
             _logger = logger;
@@ -64,7 +64,7 @@ namespace APICatalog.Controllers
         //[ServiceFilter(typeof(ApiLoggingFilter))]
         public ActionResult<IEnumerable<Category>> Get()
         { 
-            var categories = _unitOfWork.CategoryRepository.GetAll();
+            var categories = _repository.GetAll();
             return Ok(categories);  
         }
 
@@ -72,7 +72,7 @@ namespace APICatalog.Controllers
         public ActionResult<Category> Get(int id)
         {
             
-            var category = _unitOfWork.CategoryRepository.GetById(c=> c.CategoryId == id);
+            var category = _repository.GetById(c=> c.CategoryId == id);
             if (category is null)
             {
                 _logger.LogWarning($"CAtegory with this id = {id} not found");
@@ -90,8 +90,7 @@ namespace APICatalog.Controllers
                 return BadRequest();
             }
 
-            var createCategory = _unitOfWork.CategoryRepository.Create(category);
-            _unitOfWork.Commit();
+            var createCategory = _repository.Create(category);
 
             return Ok(createCategory);
         }
@@ -105,8 +104,7 @@ namespace APICatalog.Controllers
                 return BadRequest();
             }
 
-            _unitOfWork.CategoryRepository.Update(category);
-            _unitOfWork.Commit();
+            _repository.Update(category);
 
             return Ok(category);
         }
@@ -114,15 +112,14 @@ namespace APICatalog.Controllers
         [HttpDelete]
         public ActionResult Delete(int id)
         {
-            var category = _unitOfWork.CategoryRepository.GetById(c=> c.CategoryId == id);
+            var category = _repository.GetById(c=> c.CategoryId == id);
             if (category is null)
             {
                 _logger.LogWarning($"CAtegory with this id = {id} not found");
                 return NotFound("Category not founded");
             }
             
-            var excludedCategory = _unitOfWork.CategoryRepository.Delete(category);
-            _unitOfWork.Commit();
+            var excludedCategory = _repository.Delete(category);
 
             return Ok(excludedCategory);
         }
