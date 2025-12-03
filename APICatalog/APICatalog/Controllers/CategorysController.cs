@@ -1,11 +1,17 @@
 ﻿using APICatalog.Context;
+using APICatalog.DTOs;
 using APICatalog.Filters;
+using APICatalog.Mappings;
 using APICatalog.Models;
+using APICatalog.Pagination;
 using APICatalog.Repositorys;
 using APICatalog.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
+using X.PagedList;
 
 namespace APICatalog.Controllers
 {
@@ -59,72 +65,119 @@ namespace APICatalog.Controllers
         }
          */
 
+        [HttpGet("filter/name/pagination")]
+        public async Task<ActionResult<IEnumerable<CategoryDTO>>> GetCategoriesFilterByName([FromQuery] CategoryFilterName categoryFilterName)
+        {
+            var categoriesFilters = await _unitOfWork.CategoryRepository.GetCategoriesFilterByNameAsync(categoryFilterName);
+            return GetCategories(categoriesFilters);
+        }
+
+
+        [HttpGet("pagination")]
+        public async Task<ActionResult<IEnumerable<CategoryDTO>>> Get([FromQuery] CategoryParameters categoryParameters)
+        {
+            var categories = await _unitOfWork.CategoryRepository.GetCategoriesAsync(categoryParameters);
+            return GetCategories(categories);
+        }
+
+        private ActionResult<IEnumerable<CategoryDTO>> GetCategories(IPagedList<Category> categories)
+        {
+            var metadata = new
+            {
+                categories.Count,
+                categories.PageSize,
+                categories.PageCount,
+                categories.TotalItemCount,
+                categories.HasNextPage,
+                categories.HasPreviousPage
+
+            };
+
+            Response.Headers.Append("X-Pagination", JsonConvert.SerializeObject(metadata));
+            var categoriesDto = categories.ToCategoryDTOList();
+            return Ok(categoriesDto);
+        }
 
         [HttpGet]
         //[ServiceFilter(typeof(ApiLoggingFilter))]
-        public ActionResult<IEnumerable<Category>> Get()
+        [Authorize(Policy = "UserOnly")]
+        public async Task<ActionResult<IEnumerable<CategoryDTO>>> Get()
         { 
-            var categories = _unitOfWork.CategoryRepository.GetAll();
+            var categories = await _unitOfWork.CategoryRepository.GetAllAsync();
+            var categoriesDto = categories.ToCategoryDTOList();
             return Ok(categories);  
         }
 
         [HttpGet("{id:int}", Name = "GetCategory")]
-        public ActionResult<Category> Get(int id)
+        public async Task<ActionResult<CategoryDTO>> Get(int id)
         {
             
-            var category = _unitOfWork.CategoryRepository.GetById(c=> c.CategoryId == id);
+            var category = await _unitOfWork.CategoryRepository.GetByIdAsync(c=> c.CategoryId == id);
             if (category is null)
             {
                 _logger.LogWarning($"CAtegory with this id = {id} not found");
                 return NotFound($"Category with id: {id }not founded");
             }
-            return Ok(category);
+
+            var categoryDto = category.ToCategoryDto();
+            return Ok(categoryDto);
         }
 
         [HttpPost]
-        public ActionResult Post(Category category)
+        public async Task<ActionResult<CategoryDTO>> Post(CategoryDTO categoryDto)
         {
-            if (category is null)
+            if (categoryDto is null)
             {
                 _logger.LogWarning($"Dados inválidos...");
                 return BadRequest();
             }
 
-            var createCategory = _unitOfWork.CategoryRepository.Create(category);
-            _unitOfWork.Commit();
+            var category = categoryDto.ToCategory();
 
-            return Ok(createCategory);
+            var createCategory = _unitOfWork.CategoryRepository.Create(category);
+            await _unitOfWork.Commit();
+
+            var newCategoryDto = createCategory.ToCategoryDto();
+
+            return new CreatedAtRouteResult("GetCategory", new { id = newCategoryDto.CategoryId }, newCategoryDto);
         }
 
         [HttpPut("{id:int}")]
-        public ActionResult Put(int id, Category category)
+        public async Task<ActionResult<CategoryDTO>> Put(int id, CategoryDTO categoryDto)
         {
-            if (id != category.CategoryId)
+            if (id != categoryDto.CategoryId)
             {
                 _logger.LogWarning($"Dados inválidos...");
                 return BadRequest();
             }
 
-            _unitOfWork.CategoryRepository.Update(category);
-            _unitOfWork.Commit();
+            var category = categoryDto.ToCategory();
 
-            return Ok(category);
+             var updatedCategory = _unitOfWork.CategoryRepository.Update(category);
+            await _unitOfWork.Commit();
+
+            var updatedCategoryDto = updatedCategory.ToCategoryDto();
+
+            return Ok(updatedCategoryDto);
         }
 
         [HttpDelete]
-        public ActionResult Delete(int id)
+        [Authorize(Policy ="AdminOnly")]
+        public async Task<ActionResult<CategoryDTO>> Delete(int id)
         {
-            var category = _unitOfWork.CategoryRepository.GetById(c=> c.CategoryId == id);
+            var category = await _unitOfWork.CategoryRepository.GetByIdAsync(c=> c.CategoryId == id);
             if (category is null)
             {
                 _logger.LogWarning($"CAtegory with this id = {id} not found");
                 return NotFound("Category not founded");
             }
-            
-            var excludedCategory = _unitOfWork.CategoryRepository.Delete(category);
-            _unitOfWork.Commit();
 
-            return Ok(excludedCategory);
+            var excludedCategory = _unitOfWork.CategoryRepository.Delete(category);
+            await _unitOfWork.Commit();
+
+            var deletedCategoryDto = excludedCategory.ToCategoryDto();
+
+            return Ok(deletedCategoryDto);
         }
     }
 }

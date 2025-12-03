@@ -14,14 +14,14 @@ namespace APICatalog.Repositorys
             _context = context;
         }
 
-        public IEnumerable<T> GetAll()
+        public async Task<IEnumerable<T>> GetAllAsync()
         {
             //Usamos o Set para pegar o tipo do objeto que iremos pegar do banco
-            return _context.Set<T>().AsNoTracking().ToList();//O Tracking tira o gerenciamento de entidade na memória
+            return await _context.Set<T>().AsNoTracking().ToListAsync();//O Tracking tira o gerenciamento de entidade na memória
         }
-        public T? GetById(Expression<Func<T, bool>> predicate)
+        public async Task<T?> GetByIdAsync(Expression<Func<T, bool>> predicate)
         {
-           return _context.Set<T>().FirstOrDefault(predicate);
+           return await _context.Set<T>().FirstOrDefaultAsync(predicate);
         }
 
         public T Create(T entity)
@@ -47,9 +47,6 @@ namespace APICatalog.Repositorys
             return entity;
         }
 
-        IEnumerable<T> IRepository<T>.GetAll()
-        {
-            return GetAll();
-        }
+       
     }
 }
