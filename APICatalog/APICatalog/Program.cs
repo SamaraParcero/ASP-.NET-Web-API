@@ -4,10 +4,12 @@ using APICatalog.Extensions;
 using APICatalog.Filters;
 using APICatalog.Logging;
 using APICatalog.Models;
+using APICatalog.RateLimitOptions;
 using APICatalog.Repositorys;
 using APICatalog.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.CodeAnalysis.FlowAnalysis.DataFlow;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -16,6 +18,7 @@ using Microsoft.OpenApi.Models;
 using System;
 using System.Text;
 using System.Text.Json.Serialization;
+using System.Threading.RateLimiting;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -127,6 +130,78 @@ var value1 = builder.Configuration["chave1"];
 var value2 = builder.Configuration["secao1:chave2"];
 */
 
+
+var OrigenWithAcessAllowed = "OrigensWithAcessAllowed";
+builder.Services.AddCors(options =>
+{
+    /*
+    options.AddPolicy(OrigenWithAcessAllowed,
+        policy =>
+        {
+            //Defino origiens
+            policy.WithOrigins("https://apirequest.io")
+            .WithMethods("GET" ,"POST")
+            .AllowAnyHeader()
+            .AllowCredentials(); 
+        });
+    */
+
+    options.AddPolicy("OrigenWithAcessAllowed",
+        policy =>
+        {
+            //Defino origiens
+            policy.WithOrigins("https://localhost:7022")
+            .WithMethods("GET", "POST")
+            .AllowAnyHeader();
+        });
+});
+
+//Defino quem tem permissao para acessar
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("AdminOnly", policy => policy.RequireRole("ADMIN"));
+    options.AddPolicy("SuperAdminOnly", policy => policy.RequireRole("SUPERADMIN").RequireClaim("id", "SamaraParcero"));
+    options.AddPolicy("UserOnly", policy => policy.RequireRole("USER"));
+    options.AddPolicy("ExclusiveOnly", policy => policy.RequireAssertion(context => context.User.HasClaim(claim => claim.Type == "id" &&
+    claim.Value == "SamaraParcero") || context.User.IsInRole("SUPERADMIN")));
+});
+
+
+var myOptions = new MyRateLimitOptions();
+builder.Configuration.GetSection(MyRateLimitOptions.MyRateLimit).Bind(myOptions);
+
+
+builder.Services.AddRateLimiter(rateLimiteroptions =>
+{
+    rateLimiteroptions.AddFixedWindowLimiter(policyName: "fixedwindow", options =>
+    {
+        options.PermitLimit = 1;
+        options.Window = TimeSpan.FromSeconds(5);
+        options.QueueLimit = 2;
+        options.QueueProcessingOrder = QueueProcessingOrder.OldestFirst;
+    });
+    rateLimiteroptions.RejectionStatusCode = StatusCodes.Status429TooManyRequests;
+});
+
+//RateLimiting global 
+builder.Services.AddRateLimiter(options =>
+{
+    options.RejectionStatusCode = StatusCodes.Status429TooManyRequests;
+
+    options.GlobalLimiter = PartitionedRateLimiter.Create<HttpContext, string>(httpContext =>
+        RateLimitPartition.GetFixedWindowLimiter(
+            partitionKey: httpContext.User?.Identity?.Name
+                ?? httpContext.Request.Headers.Host.ToString(),
+            factory: partition => new FixedWindowRateLimiterOptions
+            {
+                AutoReplenishment = true,
+                PermitLimit = 5,
+                QueueLimit = 0,
+                Window = TimeSpan.FromSeconds(10)
+            }));
+});
+
+
 builder.Services.AddAutoMapper(typeof(Program));
 var app = builder.Build();
 app.ConfigureExceptionHandler();
@@ -139,17 +214,16 @@ if (app.Environment.IsDevelopment())
     
 }
 
-builder.Services.AddAuthorization(options =>
-{
-    options.AddPolicy("AdminOnly", policy => policy.RequireRole("ADMIN"));
-    options.AddPolicy("SuperAdminOnly", policy => policy.RequireRole("SUPERADMIN").RequireClaim("id", "SamaraParcero"));
-    options.AddPolicy("UserOnly", policy => policy.RequireRole("USER"));
-    options.AddPolicy("ExclusiveOnly", policy => policy.RequireAssertion(context => context.User.HasClaim(claim => claim.Type == "id" &&
-    claim.Value == "SamaraParcero") || context.User.IsInRole("SUPERADMIN")));
-});
 
-//Middlewares em ordem
+
+
+//Middlewares em ordem - IMPORTANTE
 app.UseHttpsRedirection();
+app.UseStaticFiles();
+app.UseRouting();
+//Depois do routing
+app.UseRateLimiter();
+app.UseCors("OrigenWithAcessAllowed");
 app.UseAuthentication();
 app.UseAuthorization();
 //Middle customizados
