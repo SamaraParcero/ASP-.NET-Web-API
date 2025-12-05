@@ -16,6 +16,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi;
 using Microsoft.OpenApi.Models;
 using System;
+using System.Reflection;
 using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.RateLimiting;
@@ -38,8 +39,10 @@ builder.Services.AddOpenApi();
 
 builder.Services.AddOpenApi(options =>
 {
+    
     options.AddDocumentTransformer((document, context, ct) =>
     {
+ 
         document.Components ??= new Microsoft.OpenApi.Models.OpenApiComponents();
 
         document.Components.SecuritySchemes["Bearer"] = new Microsoft.OpenApi.Models.OpenApiSecurityScheme

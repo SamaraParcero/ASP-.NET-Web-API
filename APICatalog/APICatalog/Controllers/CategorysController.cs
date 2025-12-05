@@ -21,6 +21,8 @@ namespace APICatalog.Controllers
     [Route("api/[controller]")]
     [ApiController]
     [EnableRateLimiting("fixedwindow")]
+    [ApiConventionType(typeof(DefaultApiConventions))]
+    [Produces("application/json")]
     public class CategorysController : ControllerBase
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -149,6 +151,7 @@ namespace APICatalog.Controllers
         }
 
         [HttpPut("{id:int}")]
+        [ApiConventionMethod(typeof(DefaultApiConventions), nameof(Put))]        
         public async Task<ActionResult<CategoryDTO>> Put(int id, CategoryDTO categoryDto)
         {
             if (id != categoryDto.CategoryId)
