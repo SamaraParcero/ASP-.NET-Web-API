@@ -1,5 +1,4 @@
-﻿using APICatalog.Context;
-using APICatalog.DTOs;
+﻿using APICatalog.DTOs;
 using APICatalog.Models;
 using APICatalog.Pagination;
 using APICatalog.Repositorys;
@@ -8,7 +7,6 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using X.PagedList;
 
@@ -100,23 +98,41 @@ namespace APICatalog.Controllers
             return GetProducts(products);
         }
 
-        [Authorize]
+
         [HttpGet]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(string), StatusCodes.Status404NotFound)]
+        [ProducesDefaultResponseType]
         public async Task<ActionResult<IEnumerable<ProductDTO>>> Get()
         {
             // var products = _context.Products.AsNoTracking().Take(10).ToList();
-            var products = await _unitOfWork.ProductRepository.GetAllAsync();
-            if (products is null)
+            try
             {
-                return NotFound("Products not founded");
+                var products = await _unitOfWork.ProductRepository.GetAllAsync();
+                if (products is null)
+                {
+                    return NotFound("Products not founded");
+                }
+                var productsDto = _mapper.Map<IEnumerable<ProductDTO>>(products);
+                return Ok(productsDto);
             }
-            var productsDto = _mapper.Map<IEnumerable<ProductDTO>>(products);
-            return Ok(productsDto);
+            catch (Exception)
+            {
+                return BadRequest();
+            }
         }
 
         [HttpGet("{id:int}", Name="GetProduct")]
-        public async Task<ActionResult<ProductDTO>> Get(int id)
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<ActionResult<ProductDTO>> GetProduct(int id)
         {
+            if(id == null || id <= 0)
+            {
+                return BadRequest("ID invalid");
+            }
             var product = await _unitOfWork.ProductRepository.GetByIdAsync(p => p.ProductId == id);
             if (product is null)
             {
@@ -128,6 +144,9 @@ namespace APICatalog.Controllers
         }
 
         [HttpGet("category/{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(string), StatusCodes.Status404NotFound)]
+        [ProducesDefaultResponseType]
         public async Task<ActionResult<IEnumerable<ProductDTO>>> GetProductsByCategory(int id)
         {
             // var products = _context.Products.AsNoTracking().Take(10).ToList();
@@ -142,6 +161,9 @@ namespace APICatalog.Controllers
         }
 
         [HttpPost]
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesDefaultResponseType]
         public async Task<ActionResult<ProductDTO>> Post([FromBody]ProductDTO productDto)
         {
             if (productDto is null)
@@ -159,6 +181,10 @@ namespace APICatalog.Controllers
         }
 
         [HttpPatch("{id}/UpdatePartial")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesDefaultResponseType]
         public async Task<ActionResult<ProductDTOUpdateResponse>> Patch(int id, JsonPatchDocument<ProductDTOUpdateRequest> patchProductDTO)
         {
             if(patchProductDTO is null || id <= 0)
@@ -188,12 +214,22 @@ namespace APICatalog.Controllers
         }
 
         [HttpPut("{id:int}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesDefaultResponseType]
         public async Task<ActionResult<ProductDTO>> Put(int id, ProductDTO productDto)
         {
             if(id != productDto.ProductId)
             {
                 return BadRequest();
             }
+
+            var existingProduct = await _unitOfWork.ProductRepository.GetByIdAsync(p=> p.ProductId == id);
+            if (existingProduct == null)
+            {
+                return BadRequest(); 
+            }
+
             var product = _mapper.Map<Product>(productDto);
             var updatedProduct = _unitOfWork.ProductRepository.Update(product);
             await _unitOfWork.Commit();

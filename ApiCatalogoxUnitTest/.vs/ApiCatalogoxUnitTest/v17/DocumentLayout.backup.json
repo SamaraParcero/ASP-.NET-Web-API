@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\ProjetosGithub\\WebApi\\ApiCatalogoxUnitTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4028F795-C60A-4595-80F5-DC9E002BF81B}|ApiCatalogoxUnitTest\\ApiCatalogoxUnitTest.csproj|g:\\projetosgithub\\webapi\\apicatalogoxunittest\\apicatalogoxunittest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4028F795-C60A-4595-80F5-DC9E002BF81B}|ApiCatalogoxUnitTest\\ApiCatalogoxUnitTest.csproj|solutionrelative:apicatalogoxunittest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\ApiCatalogoxUnitTest\\ApiCatalogoxUnitTest\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "ApiCatalogoxUnitTest\\UnitTest1.cs",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\ApiCatalogoxUnitTest\\ApiCatalogoxUnitTest\\UnitTest1.cs",
+              "RelativeToolTip": "ApiCatalogoxUnitTest\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T16:34:56.89Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

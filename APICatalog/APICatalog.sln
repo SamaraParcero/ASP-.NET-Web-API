@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APICatalogoxUnitTest", "APICatalogoxUnitTest\APICatalogoxUnitTest.csproj", "{DC4C5589-5B23-42A1-8653-E17B54B0E888}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{56692035-D072-42F0-8792-9B8D715DB65F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56692035-D072-42F0-8792-9B8D715DB65F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56692035-D072-42F0-8792-9B8D715DB65F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC4C5589-5B23-42A1-8653-E17B54B0E888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC4C5589-5B23-42A1-8653-E17B54B0E888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC4C5589-5B23-42A1-8653-E17B54B0E888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC4C5589-5B23-42A1-8653-E17B54B0E888}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

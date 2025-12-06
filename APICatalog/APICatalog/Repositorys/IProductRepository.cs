@@ -11,5 +11,6 @@ namespace APICatalog.Repositorys
         Task<IPagedList<Product>> GetProductsAsync(ProductParameters productsParameters);
         Task<IPagedList<Product>> GetProductsFilterByPriceAsync(ProductFilterPrice productFilterPrice);
         Task<IEnumerable<Product>> GetProductsByCategoryAsync(int id);
+     
     }
 }

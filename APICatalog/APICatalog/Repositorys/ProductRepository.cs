@@ -61,5 +61,7 @@ namespace APICatalog.Repositorys
             var filterProducts = products.ToPagedList( productsFilterParams.PageNumber, productsFilterParams.PageSize);
             return filterProducts;
         }
+
+        
     }
 }
