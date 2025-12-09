@@ -1,0 +1,12 @@
+G:\ProjetosGithub\WebApi\CleanArchitecture\CleanArchitecture.Domain\bin\Debug\net9.0\CleanArchitecture.Domain.deps.json
+G:\ProjetosGithub\WebApi\CleanArchitecture\CleanArchitecture.Domain\bin\Debug\net9.0\CleanArchitecture.Domain.dll
+G:\ProjetosGithub\WebApi\CleanArchitecture\CleanArchitecture.Domain\bin\Debug\net9.0\CleanArchitecture.Domain.pdb
+G:\ProjetosGithub\WebApi\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net9.0\CleanArchitecture.Domain.GeneratedMSBuildEditorConfig.editorconfig
+G:\ProjetosGithub\WebApi\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net9.0\CleanArchitecture.Domain.AssemblyInfoInputs.cache
+G:\ProjetosGithub\WebApi\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net9.0\CleanArchitecture.Domain.AssemblyInfo.cs
+G:\ProjetosGithub\WebApi\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net9.0\CleanArchitecture.Domain.csproj.CoreCompileInputs.cache
+G:\ProjetosGithub\WebApi\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net9.0\CleanArchitecture.Domain.sourcelink.json
+G:\ProjetosGithub\WebApi\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net9.0\CleanArchitecture.Domain.dll
+G:\ProjetosGithub\WebApi\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net9.0\refint\CleanArchitecture.Domain.dll
+G:\ProjetosGithub\WebApi\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net9.0\CleanArchitecture.Domain.pdb
+G:\ProjetosGithub\WebApi\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net9.0\ref\CleanArchitecture.Domain.dll

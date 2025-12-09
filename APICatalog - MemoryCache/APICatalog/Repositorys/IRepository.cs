@@ -1,0 +1,17 @@
+﻿using System.Linq.Expressions;
+
+namespace APICatalog.Repositorys
+{
+    public interface IRepository<T>
+    {
+        //Cuidado para não violar principio ISP -> Não deve ser forçado a depende de interface que não utiliza
+        Task<IEnumerable<T>> GetAllAsync();
+        //Recebe como argumento uma expressão do tipo lambda e retorna um valor booleano 
+        Task<T?> GetByIdAsync(Expression<Func<T,bool>> predicate);
+        T Create(T entity);
+        T Update(T entity);
+        T Delete(T entity);
+
+
+    }
+}
