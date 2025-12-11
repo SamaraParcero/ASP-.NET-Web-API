@@ -3,32 +3,68 @@
   "WorkspaceRootPath": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\views\\product\\deleteproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:views\\product\\deleteproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\views\\product\\updateproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:views\\product\\updateproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\views\\category\\deletecategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:views\\category\\deletecategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\models\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:models\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\views\\product\\detailsproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:views\\product\\detailsproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\views\\product\\createnewproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:views\\product\\createnewproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\views\\category\\updatecategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:views\\category\\updatecategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\views\\category\\createnewcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:views\\category\\createnewcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\models\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:models\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,20 +79,52 @@
       "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\views\\shared\\loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:views\\shared\\loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\models\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:models\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\services\\iauthentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:services\\iauthentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\models\\tokenviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:models\\tokenviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\models\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:models\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\views\\category\\updatecategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:views\\category\\updatecategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\views\\category\\createnewcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:views\\category\\createnewcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -65,10 +133,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CEB4C80F-B837-40CF-97E6-C7C5162143C9}|CategoriesMVC.csproj|g:\\projetosgithub\\webapi\\categoriesmvc\\categoriesmvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -95,23 +159,224 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DeleteProduct.cshtml",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Views\\Product\\DeleteProduct.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\DeleteProduct.cshtml",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Views\\Product\\DeleteProduct.cshtml",
+              "RelativeToolTip": "Views\\Product\\DeleteProduct.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-11T16:08:10.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateProduct.cshtml",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Views\\Product\\UpdateProduct.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\UpdateProduct.cshtml",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Views\\Product\\UpdateProduct.cshtml",
+              "RelativeToolTip": "Views\\Product\\UpdateProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-11T16:01:46.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DetailsProduct.cshtml",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Views\\Product\\DetailsProduct.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\DetailsProduct.cshtml",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Views\\Product\\DetailsProduct.cshtml",
+              "RelativeToolTip": "Views\\Product\\DetailsProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-11T15:57:17.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateNewProduct.cshtml",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Views\\Product\\CreateNewProduct.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\CreateNewProduct.cshtml",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Views\\Product\\CreateNewProduct.cshtml",
+              "RelativeToolTip": "Views\\Product\\CreateNewProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-11T15:46:39.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-11T15:16:25.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAAGEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T15:04:54.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Models\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ProductViewModel.cs",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Models\\ProductViewModel.cs",
+              "RelativeToolTip": "Models\\ProductViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T14:47:39.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Services\\ProductService.cs",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Services\\ProductService.cs",
+              "RelativeToolTip": "Services\\ProductService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowCoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T14:47:21.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Services\\IProductService.cs",
+              "RelativeDocumentMoniker": "Services\\IProductService.cs",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Services\\IProductService.cs",
+              "RelativeToolTip": "Services\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T14:47:02.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LoginPartial.cshtml",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Views\\Shared\\LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\LoginPartial.cshtml",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Views\\Shared\\LoginPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-11T14:37:34.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-11T14:33:53.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAIwCYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T14:19:21.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Services\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthenticationService.cs",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Services\\AuthenticationService.cs",
+              "RelativeToolTip": "Services\\AuthenticationService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA1wCQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T14:07:07.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IAuthentication.cs",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Services\\IAuthentication.cs",
+              "RelativeDocumentMoniker": "Services\\IAuthentication.cs",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Services\\IAuthentication.cs",
+              "RelativeToolTip": "Services\\IAuthentication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T14:06:51.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TokenViewModel.cs",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Models\\TokenViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\TokenViewModel.cs",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Models\\TokenViewModel.cs",
+              "RelativeToolTip": "Models\\TokenViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T14:01:25.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserViewModel.cs",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Models\\UserViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\UserViewModel.cs",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Models\\UserViewModel.cs",
+              "RelativeToolTip": "Models\\UserViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T13:59:20.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DeleteCategory.cshtml",
               "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Views\\Category\\DeleteCategory.cshtml",
               "RelativeDocumentMoniker": "Views\\Category\\DeleteCategory.cshtml",
-              "ToolTip": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Views\\Category\\DeleteCategory.cshtml*",
-              "RelativeToolTip": "Views\\Category\\DeleteCategory.cshtml*",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Views\\Category\\DeleteCategory.cshtml",
+              "RelativeToolTip": "Views\\Category\\DeleteCategory.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-10T00:30:28.037Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 28,
               "Title": "UpdateCategory.cshtml",
               "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Views\\Category\\UpdateCategory.cshtml",
               "RelativeDocumentMoniker": "Views\\Category\\UpdateCategory.cshtml",
@@ -119,12 +384,11 @@
               "RelativeToolTip": "Views\\Category\\UpdateCategory.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-10T00:20:47.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-10T00:20:47.023Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 29,
               "Title": "CreateNewCategory.cshtml",
               "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Views\\Category\\CreateNewCategory.cshtml",
               "RelativeDocumentMoniker": "Views\\Category\\CreateNewCategory.cshtml",
@@ -132,25 +396,24 @@
               "RelativeToolTip": "Views\\Category\\CreateNewCategory.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-09T23:15:18.024Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T23:15:18.024Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
-              "ToolTip": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Controllers\\CategoryController.cs*",
-              "RelativeToolTip": "Controllers\\CategoryController.cs*",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAuwEoAAAARAAAAAAAAAA==",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-09T22:03:14.813Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Index.cshtml",
               "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -158,11 +421,12 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-09T21:09:31.363Z"
+              "WhenOpened": "2025-12-09T21:09:31.363Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 6,
               "Title": "HomeController.cs",
               "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -170,48 +434,51 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T21:08:35.28Z"
+              "WhenOpened": "2025-12-09T21:08:35.28Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 20,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABeAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-09T21:06:03.114Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T21:41:30.468Z"
+              "WhenOpened": "2025-12-09T21:41:30.468Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
               "Title": "appsettings.json",
               "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-09T21:03:55.389Z"
+              "WhenOpened": "2025-12-09T21:03:55.389Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 32,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -223,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 25,
               "Title": "Error.cshtml",
               "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
@@ -235,7 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
               "Title": "Index.cshtml",
               "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Views\\Category\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Category\\Index.cshtml",
@@ -248,7 +515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 31,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -260,7 +527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 33,
               "Title": "CategoriesMVC.csproj",
               "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\CategoriesMVC.csproj",
               "RelativeDocumentMoniker": "CategoriesMVC.csproj",
@@ -272,7 +539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 30,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -284,32 +551,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "ICategoryService.cs",
               "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Services\\ICategoryService.cs",
               "RelativeDocumentMoniker": "Services\\ICategoryService.cs",
               "ToolTip": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Services\\ICategoryService.cs",
               "RelativeToolTip": "Services\\ICategoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T21:24:32.827Z"
+              "WhenOpened": "2025-12-09T21:24:32.827Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "CategoryService.cs",
               "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Services\\CategoryService.cs",
               "RelativeDocumentMoniker": "Services\\CategoryService.cs",
               "ToolTip": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Services\\CategoryService.cs",
               "RelativeToolTip": "Services\\CategoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-09T21:35:46.089Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 23,
               "Title": "CategoryViewModel.cs",
               "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\CategoriesMVC\\Models\\CategoryViewModel.cs",
               "RelativeDocumentMoniker": "Models\\CategoryViewModel.cs",
@@ -317,8 +585,7 @@
               "RelativeToolTip": "Models\\CategoryViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T21:01:51.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T21:01:51.616Z"
             }
           ]
         }

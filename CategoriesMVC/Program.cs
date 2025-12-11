@@ -1,4 +1,5 @@
 using CategoriesMVC.Services;
+using System.Net.Http.Headers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,7 +12,23 @@ builder.Services.AddHttpClient("CategoriesApi", c =>
 
 });
 
+builder.Services.AddHttpClient("ProductsApi", c =>
+{
+    c.BaseAddress = new Uri(builder.Configuration["ServiceUri:ProductsApi"]);
+
+});
+
+builder.Services.AddHttpClient("AuthenticationApi", c =>
+{
+    c.BaseAddress = new Uri(builder.Configuration["ServiceUri:AuthenticationApi"]);
+    c.DefaultRequestHeaders.Accept.Clear();
+    c.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+});
+
+builder.Services.AddScoped<IAuthentication, AuthenticationService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<IProductService, ProductService>();
 
 var app = builder.Build();
 
