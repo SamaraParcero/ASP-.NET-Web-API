@@ -157,6 +157,16 @@ builder.Services.AddCors(options =>
             .WithMethods("GET", "POST")
             .AllowAnyHeader();
         });
+
+    options.AddPolicy("EnableCORS",
+        policy =>
+        {
+            //Defino origiens
+            policy.WithOrigins("https://localhost:4200")
+            .AllowAnyOrigin()
+            .AllowAnyMethod()
+            .AllowAnyHeader();
+        });
 });
 
 //Defino quem tem permissao para acessar

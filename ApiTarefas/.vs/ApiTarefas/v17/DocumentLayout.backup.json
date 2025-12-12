@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\ProjetosGithub\\WebApi\\ApiTarefas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D0972D-E8F8-4FAC-8FC1-E114630C6F7E}|ApiTarefas\\ApiTarefas.csproj|g:\\projetosgithub\\webapi\\apitarefas\\apitarefas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0D0972D-E8F8-4FAC-8FC1-E114630C6F7E}|ApiTarefas\\ApiTarefas.csproj|solutionrelative:apitarefas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D0972D-E8F8-4FAC-8FC1-E114630C6F7E}|ApiTarefas\\ApiTarefas.csproj|g:\\projetosgithub\\webapi\\apitarefas\\apitarefas\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C0D0972D-E8F8-4FAC-8FC1-E114630C6F7E}|ApiTarefas\\ApiTarefas.csproj|solutionrelative:apitarefas\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D0972D-E8F8-4FAC-8FC1-E114630C6F7E}|ApiTarefas\\ApiTarefas.csproj|g:\\projetosgithub\\webapi\\apitarefas\\apitarefas\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C0D0972D-E8F8-4FAC-8FC1-E114630C6F7E}|ApiTarefas\\ApiTarefas.csproj|solutionrelative:apitarefas\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D0972D-E8F8-4FAC-8FC1-E114630C6F7E}|ApiTarefas\\ApiTarefas.csproj|g:\\projetosgithub\\webapi\\apitarefas\\apitarefas\\apitarefas.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C0D0972D-E8F8-4FAC-8FC1-E114630C6F7E}|ApiTarefas\\ApiTarefas.csproj|solutionrelative:apitarefas\\apitarefas.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D0972D-E8F8-4FAC-8FC1-E114630C6F7E}|ApiTarefas\\ApiTarefas.csproj|g:\\projetosgithub\\webapi\\apitarefas\\apitarefas\\apitarefas.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{C0D0972D-E8F8-4FAC-8FC1-E114630C6F7E}|ApiTarefas\\ApiTarefas.csproj|solutionrelative:apitarefas\\apitarefas.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApiTarefas",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\ApiTarefas\\ApiTarefas\\ApiTarefas.csproj",
+              "RelativeDocumentMoniker": "ApiTarefas\\ApiTarefas.csproj",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\ApiTarefas\\ApiTarefas\\ApiTarefas.csproj",
+              "RelativeToolTip": "ApiTarefas\\ApiTarefas.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-11T23:16:15.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\ApiTarefas\\ApiTarefas\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ApiTarefas\\Properties\\launchSettings.json",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\ApiTarefas\\ApiTarefas\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ApiTarefas\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-11T23:11:37.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApiTarefas.http",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\ApiTarefas\\ApiTarefas\\ApiTarefas.http",
+              "RelativeDocumentMoniker": "ApiTarefas\\ApiTarefas.http",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\ApiTarefas\\ApiTarefas\\ApiTarefas.http",
+              "RelativeToolTip": "ApiTarefas\\ApiTarefas.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-12-11T23:11:35.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\ApiTarefas\\ApiTarefas\\appsettings.json",
+              "RelativeDocumentMoniker": "ApiTarefas\\appsettings.json",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\ApiTarefas\\ApiTarefas\\appsettings.json",
+              "RelativeToolTip": "ApiTarefas\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-11T23:06:05.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\ApiTarefas\\ApiTarefas\\Program.cs",
+              "RelativeDocumentMoniker": "ApiTarefas\\Program.cs",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\ApiTarefas\\ApiTarefas\\Program.cs*",
+              "RelativeToolTip": "ApiTarefas\\Program.cs*",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAD4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T23:06:05.605Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
