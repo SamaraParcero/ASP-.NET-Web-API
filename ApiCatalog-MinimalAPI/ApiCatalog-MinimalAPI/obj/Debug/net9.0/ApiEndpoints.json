@@ -1,0 +1,258 @@
+[
+  {
+    "ContainingType": "ApiCatalog_MinimalAPI.ApiEndpoints.CategoriesEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapCategoriesEndpoints\u003Eb__0_0",
+    "RelativePath": "categories",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "ApiCatalog_MinimalAPI.Models.Category",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiCatalog_MinimalAPI.ApiEndpoints.CategoriesEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapCategoriesEndpoints\u003Eb__0_1",
+    "RelativePath": "categories",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ApiCatalog_MinimalAPI.Models.Category, ApiCatalog-MinimalAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Categories"
+    ]
+  },
+  {
+    "ContainingType": "ApiCatalog_MinimalAPI.ApiEndpoints.CategoriesEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapCategoriesEndpoints\u003Eb__0_2",
+    "RelativePath": "categories/{id:int}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiCatalog_MinimalAPI.ApiEndpoints.CategoriesEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapCategoriesEndpoints\u003Eb__0_3",
+    "RelativePath": "categories/{id:int}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "category",
+        "Type": "ApiCatalog_MinimalAPI.Models.Category",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiCatalog_MinimalAPI.ApiEndpoints.CategoriesEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapCategoriesEndpoints\u003Eb__0_4",
+    "RelativePath": "categories/{id:int}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiCatalog_MinimalAPI.ApiEndpoints.AuthenticationEndpoints\u002B\u003C\u003Ec__DisplayClass0_0",
+    "Method": "\u003CMapAutenticationEndpoints\u003Eb__0",
+    "RelativePath": "login",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userModel",
+        "Type": "ApiCatalog_MinimalAPI.Models.UserModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 400
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Authentication"
+    ],
+    "EndpointName": "Login"
+  },
+  {
+    "ContainingType": "ApiCatalog_MinimalAPI.ApiEndpoints.ProductsEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapProductsEndpoints\u003Eb__0_0",
+    "RelativePath": "products",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "ApiCatalog_MinimalAPI.Models.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiCatalog_MinimalAPI.ApiEndpoints.ProductsEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapProductsEndpoints\u003Eb__0_1",
+    "RelativePath": "products",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ApiCatalog_MinimalAPI.Models.Product, ApiCatalog-MinimalAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiCatalog_MinimalAPI.ApiEndpoints.ProductsEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapProductsEndpoints\u003Eb__0_2",
+    "RelativePath": "products/{id:int}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiCatalog_MinimalAPI.ApiEndpoints.ProductsEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapProductsEndpoints\u003Eb__0_3",
+    "RelativePath": "products/{id:int}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "product",
+        "Type": "ApiCatalog_MinimalAPI.Models.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiCatalog_MinimalAPI.ApiEndpoints.ProductsEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapProductsEndpoints\u003Eb__0_4",
+    "RelativePath": "products/{id:int}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

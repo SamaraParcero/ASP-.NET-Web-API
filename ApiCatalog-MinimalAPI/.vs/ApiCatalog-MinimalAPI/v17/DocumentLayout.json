@@ -1,0 +1,293 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\ProjetosGithub\\WebApi\\ApiCatalog-MinimalAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA1B5EF-7C8F-479C-8DD6-EE070EB87486}|ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI.csproj|g:\\projetosgithub\\webapi\\apicatalog-minimalapi\\apicatalog-minimalapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EDA1B5EF-7C8F-479C-8DD6-EE070EB87486}|ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI.csproj|solutionrelative:apicatalog-minimalapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA1B5EF-7C8F-479C-8DD6-EE070EB87486}|ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI.csproj|g:\\projetosgithub\\webapi\\apicatalog-minimalapi\\apicatalog-minimalapi\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA1B5EF-7C8F-479C-8DD6-EE070EB87486}|ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI.csproj|solutionrelative:apicatalog-minimalapi\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA1B5EF-7C8F-479C-8DD6-EE070EB87486}|ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI.csproj|g:\\projetosgithub\\webapi\\apicatalog-minimalapi\\apicatalog-minimalapi\\apiendpoints\\authenticationendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA1B5EF-7C8F-479C-8DD6-EE070EB87486}|ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI.csproj|solutionrelative:apicatalog-minimalapi\\apiendpoints\\authenticationendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA1B5EF-7C8F-479C-8DD6-EE070EB87486}|ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI.csproj|g:\\projetosgithub\\webapi\\apicatalog-minimalapi\\apicatalog-minimalapi\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA1B5EF-7C8F-479C-8DD6-EE070EB87486}|ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI.csproj|solutionrelative:apicatalog-minimalapi\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA1B5EF-7C8F-479C-8DD6-EE070EB87486}|ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI.csproj|g:\\projetosgithub\\webapi\\apicatalog-minimalapi\\apicatalog-minimalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA1B5EF-7C8F-479C-8DD6-EE070EB87486}|ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI.csproj|solutionrelative:apicatalog-minimalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA1B5EF-7C8F-479C-8DD6-EE070EB87486}|ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI.csproj|g:\\projetosgithub\\webapi\\apicatalog-minimalapi\\apicatalog-minimalapi\\appservicesextensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA1B5EF-7C8F-479C-8DD6-EE070EB87486}|ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI.csproj|solutionrelative:apicatalog-minimalapi\\appservicesextensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA1B5EF-7C8F-479C-8DD6-EE070EB87486}|ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI.csproj|g:\\projetosgithub\\webapi\\apicatalog-minimalapi\\apicatalog-minimalapi\\apiendpoints\\categoriesendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA1B5EF-7C8F-479C-8DD6-EE070EB87486}|ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI.csproj|solutionrelative:apicatalog-minimalapi\\apiendpoints\\categoriesendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA1B5EF-7C8F-479C-8DD6-EE070EB87486}|ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI.csproj|g:\\projetosgithub\\webapi\\apicatalog-minimalapi\\apicatalog-minimalapi\\appservicesextensions\\applicationbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA1B5EF-7C8F-479C-8DD6-EE070EB87486}|ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI.csproj|solutionrelative:apicatalog-minimalapi\\appservicesextensions\\applicationbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA1B5EF-7C8F-479C-8DD6-EE070EB87486}|ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI.csproj|g:\\projetosgithub\\webapi\\apicatalog-minimalapi\\apicatalog-minimalapi\\apiendpoints\\productsendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA1B5EF-7C8F-479C-8DD6-EE070EB87486}|ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI.csproj|solutionrelative:apicatalog-minimalapi\\apiendpoints\\productsendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA1B5EF-7C8F-479C-8DD6-EE070EB87486}|ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI.csproj|g:\\projetosgithub\\webapi\\apicatalog-minimalapi\\apicatalog-minimalapi\\apicatalog-minimalapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EDA1B5EF-7C8F-479C-8DD6-EE070EB87486}|ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI.csproj|solutionrelative:apicatalog-minimalapi\\apicatalog-minimalapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA1B5EF-7C8F-479C-8DD6-EE070EB87486}|ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI.csproj|g:\\projetosgithub\\webapi\\apicatalog-minimalapi\\apicatalog-minimalapi\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA1B5EF-7C8F-479C-8DD6-EE070EB87486}|ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI.csproj|solutionrelative:apicatalog-minimalapi\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA1B5EF-7C8F-479C-8DD6-EE070EB87486}|ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI.csproj|g:\\projetosgithub\\webapi\\apicatalog-minimalapi\\apicatalog-minimalapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA1B5EF-7C8F-479C-8DD6-EE070EB87486}|ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI.csproj|solutionrelative:apicatalog-minimalapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA1B5EF-7C8F-479C-8DD6-EE070EB87486}|ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI.csproj|g:\\projetosgithub\\webapi\\apicatalog-minimalapi\\apicatalog-minimalapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA1B5EF-7C8F-479C-8DD6-EE070EB87486}|ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI.csproj|solutionrelative:apicatalog-minimalapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA1B5EF-7C8F-479C-8DD6-EE070EB87486}|ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI.csproj|g:\\projetosgithub\\webapi\\apicatalog-minimalapi\\apicatalog-minimalapi\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA1B5EF-7C8F-479C-8DD6-EE070EB87486}|ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI.csproj|solutionrelative:apicatalog-minimalapi\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA1B5EF-7C8F-479C-8DD6-EE070EB87486}|ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI.csproj|g:\\projetosgithub\\webapi\\apicatalog-minimalapi\\apicatalog-minimalapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EDA1B5EF-7C8F-479C-8DD6-EE070EB87486}|ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI.csproj|solutionrelative:apicatalog-minimalapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA1B5EF-7C8F-479C-8DD6-EE070EB87486}|ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI.csproj|g:\\projetosgithub\\webapi\\apicatalog-minimalapi\\apicatalog-minimalapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EDA1B5EF-7C8F-479C-8DD6-EE070EB87486}|ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI.csproj|solutionrelative:apicatalog-minimalapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 16,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI\\AppServicesExtensions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "ApiCatalog-MinimalAPI\\AppServicesExtensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI\\AppServicesExtensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "ApiCatalog-MinimalAPI\\AppServicesExtensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAADwv2cAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T20:10:32.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationBuilderExtensions.cs",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI\\AppServicesExtensions\\ApplicationBuilderExtensions.cs",
+              "RelativeDocumentMoniker": "ApiCatalog-MinimalAPI\\AppServicesExtensions\\ApplicationBuilderExtensions.cs",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI\\AppServicesExtensions\\ApplicationBuilderExtensions.cs",
+              "RelativeToolTip": "ApiCatalog-MinimalAPI\\AppServicesExtensions\\ApplicationBuilderExtensions.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T19:55:39.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductsEndpoints.cs",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI\\ApiEndpoints\\ProductsEndpoints.cs",
+              "RelativeDocumentMoniker": "ApiCatalog-MinimalAPI\\ApiEndpoints\\ProductsEndpoints.cs",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI\\ApiEndpoints\\ProductsEndpoints.cs",
+              "RelativeToolTip": "ApiCatalog-MinimalAPI\\ApiEndpoints\\ProductsEndpoints.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T19:49:34.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoriesEndpoints.cs",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI\\ApiEndpoints\\CategoriesEndpoints.cs",
+              "RelativeDocumentMoniker": "ApiCatalog-MinimalAPI\\ApiEndpoints\\CategoriesEndpoints.cs",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI\\ApiEndpoints\\CategoriesEndpoints.cs",
+              "RelativeToolTip": "ApiCatalog-MinimalAPI\\ApiEndpoints\\CategoriesEndpoints.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T19:47:12.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthenticationEndpoints.cs",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI\\ApiEndpoints\\AuthenticationEndpoints.cs",
+              "RelativeDocumentMoniker": "ApiCatalog-MinimalAPI\\ApiEndpoints\\AuthenticationEndpoints.cs",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI\\ApiEndpoints\\AuthenticationEndpoints.cs",
+              "RelativeToolTip": "ApiCatalog-MinimalAPI\\ApiEndpoints\\AuthenticationEndpoints.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAqwBYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T19:41:17.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "ApiCatalog-MinimalAPI\\Services\\TokenService.cs",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI\\Services\\TokenService.cs",
+              "RelativeToolTip": "ApiCatalog-MinimalAPI\\Services\\TokenService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T18:44:06.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI\\Services\\ITokenService.cs",
+              "RelativeDocumentMoniker": "ApiCatalog-MinimalAPI\\Services\\ITokenService.cs",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI\\Services\\ITokenService.cs",
+              "RelativeToolTip": "ApiCatalog-MinimalAPI\\Services\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T18:42:55.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "ApiCatalog-MinimalAPI\\Models\\UserModel.cs",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI\\Models\\UserModel.cs",
+              "RelativeToolTip": "ApiCatalog-MinimalAPI\\Models\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T18:35:12.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ApiCatalog-MinimalAPI\\Context\\AppDbContext.cs",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "ApiCatalog-MinimalAPI\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAiwDIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T14:04:01.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Product.cs",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ApiCatalog-MinimalAPI\\Models\\Product.cs",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI\\Models\\Product.cs",
+              "RelativeToolTip": "ApiCatalog-MinimalAPI\\Models\\Product.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAIBYwBAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T21:22:46.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApiCatalog-MinimalAPI.csproj",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI.csproj",
+              "RelativeDocumentMoniker": "ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI.csproj",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI.csproj",
+              "RelativeToolTip": "ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-12T21:22:21.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Category.cs",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "ApiCatalog-MinimalAPI\\Models\\Category.cs",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI\\Models\\Category.cs",
+              "RelativeToolTip": "ApiCatalog-MinimalAPI\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T21:21:36.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ApiCatalog-MinimalAPI\\Properties\\launchSettings.json",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ApiCatalog-MinimalAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-12T21:13:50.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ApiCatalog-MinimalAPI\\appsettings.Development.json",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI\\appsettings.Development.json",
+              "RelativeToolTip": "ApiCatalog-MinimalAPI\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-12T21:13:45.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "ApiCatalog-MinimalAPI\\appsettings.json",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI\\appsettings.json",
+              "RelativeToolTip": "ApiCatalog-MinimalAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-12T21:13:34.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ApiCatalog-MinimalAPI\\Program.cs",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\ApiCatalog-MinimalAPI\\ApiCatalog-MinimalAPI\\Program.cs",
+              "RelativeToolTip": "ApiCatalog-MinimalAPI\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T21:10:15.544Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
