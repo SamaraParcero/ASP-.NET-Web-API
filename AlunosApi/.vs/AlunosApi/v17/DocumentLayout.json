@@ -1,0 +1,232 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\ProjetosGithub\\WebApi\\AlunosApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{842222C1-7075-4966-951F-8E22C2E41850}|AlunosApi\\AlunosApi.csproj|g:\\projetosgithub\\webapi\\alunosapi\\alunosapi\\controllers\\alunoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{842222C1-7075-4966-951F-8E22C2E41850}|AlunosApi\\AlunosApi.csproj|solutionrelative:alunosapi\\controllers\\alunoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{842222C1-7075-4966-951F-8E22C2E41850}|AlunosApi\\AlunosApi.csproj|g:\\projetosgithub\\webapi\\alunosapi\\alunosapi\\services\\alunosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{842222C1-7075-4966-951F-8E22C2E41850}|AlunosApi\\AlunosApi.csproj|solutionrelative:alunosapi\\services\\alunosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{842222C1-7075-4966-951F-8E22C2E41850}|AlunosApi\\AlunosApi.csproj|g:\\projetosgithub\\webapi\\alunosapi\\alunosapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{842222C1-7075-4966-951F-8E22C2E41850}|AlunosApi\\AlunosApi.csproj|solutionrelative:alunosapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{842222C1-7075-4966-951F-8E22C2E41850}|AlunosApi\\AlunosApi.csproj|g:\\projetosgithub\\webapi\\alunosapi\\alunosapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{842222C1-7075-4966-951F-8E22C2E41850}|AlunosApi\\AlunosApi.csproj|solutionrelative:alunosapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{842222C1-7075-4966-951F-8E22C2E41850}|AlunosApi\\AlunosApi.csproj|g:\\projetosgithub\\webapi\\alunosapi\\alunosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{842222C1-7075-4966-951F-8E22C2E41850}|AlunosApi\\AlunosApi.csproj|solutionrelative:alunosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{842222C1-7075-4966-951F-8E22C2E41850}|AlunosApi\\AlunosApi.csproj|g:\\projetosgithub\\webapi\\alunosapi\\alunosapi\\services\\ialunoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{842222C1-7075-4966-951F-8E22C2E41850}|AlunosApi\\AlunosApi.csproj|solutionrelative:alunosapi\\services\\ialunoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\ProjetosGithub\\WebApi\\AlunosApi\\AlunosApi\\Migrations\\20251222201345_PopulaTabela.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AlunosApi\\Migrations\\20251222201345_PopulaTabela.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{842222C1-7075-4966-951F-8E22C2E41850}|AlunosApi\\AlunosApi.csproj|g:\\projetosgithub\\webapi\\alunosapi\\alunosapi\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{842222C1-7075-4966-951F-8E22C2E41850}|AlunosApi\\AlunosApi.csproj|solutionrelative:alunosapi\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{842222C1-7075-4966-951F-8E22C2E41850}|AlunosApi\\AlunosApi.csproj|g:\\projetosgithub\\webapi\\alunosapi\\alunosapi\\alunosapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{842222C1-7075-4966-951F-8E22C2E41850}|AlunosApi\\AlunosApi.csproj|solutionrelative:alunosapi\\alunosapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{842222C1-7075-4966-951F-8E22C2E41850}|AlunosApi\\AlunosApi.csproj|g:\\projetosgithub\\webapi\\alunosapi\\alunosapi\\alunosapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{842222C1-7075-4966-951F-8E22C2E41850}|AlunosApi\\AlunosApi.csproj|solutionrelative:alunosapi\\alunosapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\ProjetosGithub\\WebApi\\AlunosApi\\AlunosApi\\Migrations\\20251222194514_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AlunosApi\\Migrations\\20251222194514_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{842222C1-7075-4966-951F-8E22C2E41850}|AlunosApi\\AlunosApi.csproj|g:\\projetosgithub\\webapi\\alunosapi\\alunosapi\\models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{842222C1-7075-4966-951F-8E22C2E41850}|AlunosApi\\AlunosApi.csproj|solutionrelative:alunosapi\\models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\AlunosApi\\AlunosApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AlunosApi\\Properties\\launchSettings.json",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\AlunosApi\\AlunosApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AlunosApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-22T22:19:24.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AlunosController.cs",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\AlunosApi\\AlunosApi\\Controllers\\AlunosController.cs",
+              "RelativeDocumentMoniker": "AlunosApi\\Controllers\\AlunosController.cs",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\AlunosApi\\AlunosApi\\Controllers\\AlunosController.cs",
+              "RelativeToolTip": "AlunosApi\\Controllers\\AlunosController.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAmwCYAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T20:29:52.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AlunosService.cs",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\AlunosApi\\AlunosApi\\Services\\AlunosService.cs",
+              "RelativeDocumentMoniker": "AlunosApi\\Services\\AlunosService.cs",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\AlunosApi\\AlunosApi\\Services\\AlunosService.cs",
+              "RelativeToolTip": "AlunosApi\\Services\\AlunosService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAiwCUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T20:18:35.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAlunoService.cs",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\AlunosApi\\AlunosApi\\Services\\IAlunoService.cs",
+              "RelativeDocumentMoniker": "AlunosApi\\Services\\IAlunoService.cs",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\AlunosApi\\AlunosApi\\Services\\IAlunoService.cs",
+              "RelativeToolTip": "AlunosApi\\Services\\IAlunoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T20:16:05.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20251222201345_PopulaTabela.cs",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\AlunosApi\\AlunosApi\\Migrations\\20251222201345_PopulaTabela.cs",
+              "RelativeDocumentMoniker": "AlunosApi\\Migrations\\20251222201345_PopulaTabela.cs",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\AlunosApi\\AlunosApi\\Migrations\\20251222201345_PopulaTabela.cs",
+              "RelativeToolTip": "AlunosApi\\Migrations\\20251222201345_PopulaTabela.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T20:13:46.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AlunosApi.http",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\AlunosApi\\AlunosApi\\AlunosApi.http",
+              "RelativeDocumentMoniker": "AlunosApi\\AlunosApi.http",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\AlunosApi\\AlunosApi\\AlunosApi.http",
+              "RelativeToolTip": "AlunosApi\\AlunosApi.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-12-22T19:08:02.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20251222194514_initial.cs",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\AlunosApi\\AlunosApi\\Migrations\\20251222194514_initial.cs",
+              "RelativeDocumentMoniker": "AlunosApi\\Migrations\\20251222194514_initial.cs",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\AlunosApi\\AlunosApi\\Migrations\\20251222194514_initial.cs",
+              "RelativeToolTip": "AlunosApi\\Migrations\\20251222194514_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T19:45:14.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\AlunosApi\\AlunosApi\\appsettings.json",
+              "RelativeDocumentMoniker": "AlunosApi\\appsettings.json",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\AlunosApi\\AlunosApi\\appsettings.json",
+              "RelativeToolTip": "AlunosApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAB9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-22T19:10:56.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\AlunosApi\\AlunosApi\\Program.cs",
+              "RelativeDocumentMoniker": "AlunosApi\\Program.cs",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\AlunosApi\\AlunosApi\\Program.cs",
+              "RelativeToolTip": "AlunosApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T19:08:29.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\AlunosApi\\AlunosApi\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "AlunosApi\\Context\\AppDbContext.cs",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\AlunosApi\\AlunosApi\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "AlunosApi\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvxwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T19:06:45.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AlunosApi",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\AlunosApi\\AlunosApi\\AlunosApi.csproj",
+              "RelativeDocumentMoniker": "AlunosApi\\AlunosApi.csproj",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\AlunosApi\\AlunosApi\\AlunosApi.csproj",
+              "RelativeToolTip": "AlunosApi\\AlunosApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-22T19:06:16.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Aluno.cs",
+              "DocumentMoniker": "G:\\ProjetosGithub\\WebApi\\AlunosApi\\AlunosApi\\Models\\Aluno.cs",
+              "RelativeDocumentMoniker": "AlunosApi\\Models\\Aluno.cs",
+              "ToolTip": "G:\\ProjetosGithub\\WebApi\\AlunosApi\\AlunosApi\\Models\\Aluno.cs",
+              "RelativeToolTip": "AlunosApi\\Models\\Aluno.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T19:03:34.702Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
