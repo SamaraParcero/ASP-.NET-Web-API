@@ -1,5 +1,57 @@
 [
   {
+    "ContainingType": "AlunosApi.Controllers.AccountController",
+    "Method": "CreateUser",
+    "RelativePath": "api/Account/CreateUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "AlunosApi.ViewModels.RegisterModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AlunosApi.ViewModels.UserToken",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AlunosApi.Controllers.AccountController",
+    "Method": "LoginUser",
+    "RelativePath": "api/Account/LoginUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userInfo",
+        "Type": "AlunosApi.ViewModels.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AlunosApi.ViewModels.UserToken",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "AlunosApi.Controllers.AlunosController",
     "Method": "GetAlunos",
     "RelativePath": "api/Alunos",

@@ -156,3 +156,6 @@ G:\ProjetosGithub\WebApi\AlunosApi\AlunosApi\obj\Debug\net9.0\AlunosApi.genrunti
 G:\ProjetosGithub\WebApi\AlunosApi\AlunosApi\obj\Debug\net9.0\ref\AlunosApi.dll
 G:\ProjetosGithub\WebApi\AlunosApi\AlunosApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 G:\ProjetosGithub\WebApi\AlunosApi\AlunosApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+G:\ProjetosGithub\WebApi\AlunosApi\AlunosApi\bin\Debug\net9.0\libman.json
+G:\ProjetosGithub\WebApi\AlunosApi\AlunosApi\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+G:\ProjetosGithub\WebApi\AlunosApi\AlunosApi\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
